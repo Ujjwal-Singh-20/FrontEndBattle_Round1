@@ -8,18 +8,18 @@
   <meta name="description"
     content="Automate your data pipelines with NeuralFlow's next-gen AI platform. Real-time processing, multi-agent orchestration, and enterprise-grade reliability.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://neuralflow-demo.vercel.app">
+  <link rel="canonical" href="https://front-end-battle-round1.vercel.app">
 
   <meta property="og:title" content="NeuralFlow — AI-Driven Data Automation">
   <meta property="og:description" content="Next-gen AI automation platform for data teams.">
-  <meta property="og:image" content="https://neuralflow-demo.vercel.app/og-image.png">
-  <meta property="og:url" content="https://neuralflow-demo.vercel.app">
+  <meta property="og:image" content="https://front-end-battle-round1.vercel.app/og-image.png">
+  <meta property="og:url" content="https://front-end-battle-round1.vercel.app">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="NeuralFlow — AI-Driven Data Automation">
   <meta name="twitter:description" content="Next-gen AI automation platform for data teams.">
-  <meta name="twitter:image" content="https://neuralflow-demo.vercel.app/og-image.png">
+  <meta name="twitter:image" content="https://front-end-battle-round1.vercel.app/og-image.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -28,14 +28,27 @@
     href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
   <style>
-    @keyframes spin { to { transform: rotate(360deg); } }
-    @keyframes fadeOutLoader { to { opacity: 0; visibility: hidden; } }
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes fadeOutLoader {
+      to {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <div id="loader" style="position: fixed; inset: 0; z-index: 99999; background: #172B36; display: flex; align-items: center; justify-content: center; pointer-events: none; animation: fadeOutLoader 300ms ease-out 200ms forwards;">
-    <div style="width: 40px; height: 40px; border: 3px solid rgba(255, 200, 1, 0.2); border-top-color: #FFC801; border-radius: 50%; animation: spin 500ms linear infinite;"></div>
+  <div id="loader"
+    style="position: fixed; inset: 0; z-index: 99999; background: #172B36; display: flex; align-items: center; justify-content: center; pointer-events: none; animation: fadeOutLoader 300ms ease-out 200ms forwards;">
+    <div
+      style="width: 40px; height: 40px; border: 3px solid rgba(255, 200, 1, 0.2); border-top-color: #FFC801; border-radius: 50%; animation: spin 500ms linear infinite;">
+    </div>
   </div>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
